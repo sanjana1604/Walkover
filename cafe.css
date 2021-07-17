@@ -131,3 +131,67 @@ a.link-to-book:hover {
   display: block;
 }
 
+@media (min-width:577px) and (max-width: 800px) {
+ 
+  .section-intro {
+      height: 500px;
+  }
+
+  .about-section p,
+  .about-section h3 {
+      font-size: 20px;
+  }
+
+  .carousel-inner {
+      height: auto;
+  }
+
+  .row-flex {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-intro {
+      height: 300px;
+  }
+
+  .about-section {
+      padding: 30px;
+  }
+
+  .section-intro h1 {
+      font-size: 2em;
+  }
+
+  .about-section p,
+  .about-section h3 {
+      font-size: 15px;
+  }
+
+  .carousel-inner {
+      height: auto;
+  }
+
+  .row-flex {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .row-flex h3 {
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .form-group p {
+      font-size: 15px;
+  }
+
+  .opening-time p span,
+  .contact-address p span {
+      font-size: 15px;
+      text-align: center;
+  }
+
+}
